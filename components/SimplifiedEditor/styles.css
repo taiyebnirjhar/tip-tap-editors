@@ -1,0 +1,42 @@
+/* Simplified Editor specific styles */
+.simplified-editor .ProseMirror {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.simplified-editor .ProseMirror:focus,
+.simplified-editor .ProseMirror:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.simplified-editor .prose {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.simplified-editor-content {
+  width: 100%;
+}
+
+/* Remove margins from all block elements */
+.simplified-editor .ProseMirror p,
+.simplified-editor .ProseMirror h1,
+.simplified-editor .ProseMirror h2,
+.simplified-editor .ProseMirror h3,
+.simplified-editor .ProseMirror h4,
+.simplified-editor .ProseMirror h5,
+.simplified-editor .ProseMirror h6,
+.simplified-editor .ProseMirror ul,
+.simplified-editor .ProseMirror ol,
+.simplified-editor .ProseMirror blockquote {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Ensure list items don't have extra spacing */
+.simplified-editor .ProseMirror li {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}

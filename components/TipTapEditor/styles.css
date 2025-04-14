@@ -1,0 +1,42 @@
+/* TipTap Editor specific styles */
+.tiptap-editor .ProseMirror {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.tiptap-editor .ProseMirror:focus,
+.tiptap-editor .ProseMirror:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.tiptap-editor .prose {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.tiptap-editor-content {
+  width: 100%;
+}
+
+/* Remove margins from all block elements */
+.tiptap-editor .ProseMirror p,
+.tiptap-editor .ProseMirror h1,
+.tiptap-editor .ProseMirror h2,
+.tiptap-editor .ProseMirror h3,
+.tiptap-editor .ProseMirror h4,
+.tiptap-editor .ProseMirror h5,
+.tiptap-editor .ProseMirror h6,
+.tiptap-editor .ProseMirror ul,
+.tiptap-editor .ProseMirror ol,
+.tiptap-editor .ProseMirror blockquote {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Ensure list items don't have extra spacing */
+.tiptap-editor .ProseMirror li {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
