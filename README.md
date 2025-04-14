@@ -2,8 +2,6 @@
 
 A collection of modular, reusable rich text editors built with TipTap, React, and Tailwind CSS. This project provides two editor variations: a full-featured editor with advanced formatting options and a simplified editor for basic content editing.
 
-![TipTap Editors Screenshot](/placeholder.svg?height=400&width=800&query=Two%20TipTap%20rich%20text%20editors%20with%20formatting%20controls)
-
 ## Features
 
 ### Full-Featured Editor
